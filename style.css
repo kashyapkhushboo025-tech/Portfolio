@@ -22,7 +22,7 @@ img{
   border:5px solid #00bfff;
   margin-bottom:20px;
   object-fit: cover;
-  object-position:center top;
+  object-position:20%;
   transform: scale(1.3);
 }
 
