@@ -285,48 +285,45 @@ section{
     align-items:center;
     font-size:2rem;
 }
-
-.contact{
-    background:var(--bg-color);
-}
-
 .contact-card{
-    max-width:600px;
-    margin:auto;
-    background:rgba(255,255,255,.08);
-    border:1px solid rgba(255,255,255,.15);
-    backdrop-filter:blur(15px);
-    border-radius:20px;
-    padding:3rem;
-    box-shadow:0 0 30px rgba(56,189,248,.25);
-}
-
-.contact-item{
     display:flex;
+    flex-direction:column;
     align-items:center;
-    gap:1.5rem;
-    padding:1.6rem 2rem;
-    margin:1.5rem 0;
-    border-radius:15px;
+    gap:25px;
+}
+
+.social-card{
+    width:320px;
+    background:#1b2338;
+    border:2px solid #2d3b5f;
+    border-radius:20px;
+    padding:35px 20px;
+    text-align:center;
     color:#fff;
-    font-size:1.8rem;
-    background:rgba(255,255,255,.05);
-    transition:.4s;
+    transition:.3s;
 }
 
-.contact-item i{
-    font-size:2.5rem;
-    color:var(--main-color);
+.social-card i{
+    font-size:45px;
+    color:#38bdf8;
+    margin-bottom:15px;
 }
 
-.contact-item:hover{
-    background:var(--main-color);
-    transform:translateX(10px);
-    box-shadow:0 0 25px var(--main-color);
+.social-card h3{
+    font-size:2.4rem;
+    margin:10px 0;
 }
 
-.contact-item:hover i{
-    color:#fff;
+.social-card p{
+    font-size:1.5rem;
+    color:#b0b7c3;
+    word-break:break-word;
+}
+
+.social-card:hover{
+    transform:translateY(-5px);
+    border-color:#38bdf8;
+    box-shadow:0 0 20px #38bdf8;
 }
 
 .footer{
